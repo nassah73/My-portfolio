@@ -18,11 +18,16 @@ export default function Home(){
 
           </ul>
         </nav>
-        <div className=' absolute text-white top-1/3 left-20 leading-7 capitalize'>
+        <div className=' absolute text-white top-1/3 left-20 leading-7 capitalize font-[600] text-xl'>
             <p >hi there !</p>
-            <p>i am <span className='text-[#10b981] font-[600]'>HASSAN ES-SEBAIY</span></p>
+            <p>i am <span className='text-[#10b981] font-[700]'>HASSAN ES-SEBAIY</span></p>
              <h1 className='w-110 text-2xl'>Full Stack & Software Developer specialized in Java, React, and Node.js.</h1>
-            <button className='bg-[#10b981] px-5 py-1 mt-5 rounded-[5px] hover'>contact me </button>
+            <button className='bg-[#10b981] px-5 py-1 mt-5 rounded-[5px] hover:bg-green-500'>contact me </button>
+        </div>
+        <div>
+          <nav></nav>
+          <nav></nav>
+          <nav></nav>
         </div>
     </div>
   )
