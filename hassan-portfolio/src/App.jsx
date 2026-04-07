@@ -1,4 +1,5 @@
 import Profile from './Profile.png'
+import { FaGithub } from 'react-icons/fa';
 import logo from './logo.png'
  const navBar=['home','About','Projects','Skills','Contact']
 export default function Home(){
@@ -15,7 +16,7 @@ export default function Home(){
                 <li className='text-white mr-20 mt-5 hover:text-[#10b981] hover:cursor-pointer ' key={index}>{item}</li>
               )
             })}
-
+             <li><a href="https://github.com/nassah73"><FaGithub className='text-white size-7 mt-4.5 mr-5 hover:cursor-pointer hover:text-gray-400'/></a></li>
           </ul>
         </nav>
         <div className=' absolute text-white top-1/3 left-20 leading-7 capitalize font-[600] text-xl'>
@@ -24,10 +25,19 @@ export default function Home(){
              <h1 className='w-110 text-2xl'>Full Stack & Software Developer specialized in Java, React, and Node.js.</h1>
             <button className='bg-[#10b981] px-5 py-1 mt-5 rounded-[5px] hover:bg-green-500'>contact me </button>
         </div>
-        <div>
-          <nav></nav>
-          <nav></nav>
-          <nav></nav>
+        <div className='absolute text-white bottom-1/5 flex  '>
+          <nav className='border-r-2 pr-2 ml-20 '>
+            <p className='capitalize'>email</p>
+            <p className='text-gray-400'>hassansobai6@gmail.com</p>
+          </nav>
+           <nav className='border-r-2 pr-2 ml-5 '>
+            <p className='capitalize'>phone</p>
+            <p className='text-gray-400'>+212-712613884</p>
+          </nav>
+          <nav className=' pr-2 ml-5 '>
+            <p className='capitalize'>location</p>
+            <p className='text-gray-400'>Taroudant,Morocco</p>
+          </nav>
         </div>
     </div>
   )
