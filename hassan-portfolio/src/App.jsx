@@ -21,8 +21,8 @@ export default function Home(){
         <div className=' absolute text-white top-1/3 left-20 leading-7 capitalize'>
             <p >hi there !</p>
             <p>i am <span className='text-[#10b981] font-[600]'>HASSAN ES-SEBAIY</span></p>
-             <h1>Full Stack & Software Developer specialized in Java, React, and Node.js.</h1>
-            <button>contact me </button>
+             <h1 className='w-110 text-2xl'>Full Stack & Software Developer specialized in Java, React, and Node.js.</h1>
+            <button className='bg-[#10b981] px-5 py-1 mt-5 rounded-[5px] hover'>contact me </button>
         </div>
     </div>
   )
