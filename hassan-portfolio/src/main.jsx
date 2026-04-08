@@ -4,7 +4,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import About from './about/About.jsx'
-
+import Projects from './projets/Projets.jsx'
+import Skills from './skills/Skills.jsx'
+import Contact from './contact/Contact.jsx'
 createRoot(document.getElementById('root')).render(
         
               <div className="bg-[#1f1f1f] w-screen h-screen z-0 relative">
