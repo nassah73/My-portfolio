@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import About from './about/About.jsx'
 
 createRoot(document.getElementById('root')).render(
-         <BrowserRouter>
+        
               <div className="bg-[#1f1f1f] w-screen h-screen z-0 relative">
                 <Router>
                     <Routes>
@@ -18,5 +19,5 @@ createRoot(document.getElementById('root')).render(
                 </Router>
                 
               </div>
-     </BrowserRouter>
+    
 )
