@@ -1,7 +1,8 @@
 import { FaGithub } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 import logo from './logo.png'
 export default function Navbar(){
-     const navBar=['home','About','Projects','Skills','Contact']
+     const navBar=[{name:'home',path:"/"},{'About'},{'Projects'},{'Skills'},{'Contact'}]
     return(
         <>
                 <img src={logo} alt="logo" className='w-40 absolute ml-20'/>
