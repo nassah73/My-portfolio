@@ -34,11 +34,11 @@ export default function Home(){
         <div className='absolute text-white bottom-1/5 flex  '>
           <nav className='border-r-2 pr-2 ml-20 '>
             <p className='capitalize'>email</p>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hassansobai6@gmail.com" className='text-gray-400'>hassansobai6@gmail.com</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hassansobai6@gmail.com" className='text-gray-400 hover:text-gray-500'>hassansobai6@gmail.com</a>
           </nav>
            <nav className='border-r-2 pr-2 ml-5 '>
             <p className='capitalize'>phone</p>
-            <a href="https://wa.me/+212712613884" className='text-gray-400'>+212-712613884</a>
+            <a href="https://wa.me/+212712613884" className='text-gray-400 hover:text-gray-500'>+212-712613884</a>
           </nav>
           <nav className=' pr-2 ml-5 '>
             <p className='capitalize'>location</p>
