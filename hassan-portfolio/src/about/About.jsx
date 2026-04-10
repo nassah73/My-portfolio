@@ -7,15 +7,20 @@ export default function About(){
         <Navbar/>
         <div className="">
             <div className=" w-[1200px]   justify-self-center  flex  gap-10  relative top-[100px]">
-            <nav className=" relative ">
-            <div className="bg-[#10b981] w-100 h-80 rounded-xl relative  z-0 rotate-175"></div>
-            <img src={Img} alt="" className="w-100 h-80 object-cover rounded-xl absolute top-[10px] z-1 "/>
+            <nav className=" relative w-[50%] ">
+            <div className="bg-[#10b981] w-[100%] h-100 rounded-xl relative  z-0 rotate-175"></div>
+            <img src={Img} alt="" className="w-[100%] h-100 object-cover rounded-xl absolute top-[10px] z-1 "/>
              </nav>
-             <nav className="w-[100%] relative  text-white font-[700]">
-                 <div className="absolute w-110 z-0 h-80 bg-[#10b981] rounded-xl rotate-5 justify-self-center"></div>
-                  <p className="relative  w-110 h-80 justify-self-center z-4 bg-amber-600 rounded-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eveniet, reiciendis aut maxime impedit quos recusandae eius mollitia! Illo est blanditiis, mollitia laboriosam voluptates modi dolorum pariatur inventore commodi facilis.
+             <nav className="w-[100%] relative w-[600px]  text-white font-[700]">
+                 <div className="absolute w-[100%] z-0 h-100 bg-[#10b981] rounded-xl rotate-5 justify-self-center"></div>
+                 <nav className="relative  w-[100%] h-100 justify-self-center z-4 bg-green-700 rounded-xl">
+                    <h1 className="relative top-5 left-5 text-2xl">About Me</h1>
+                  <p className="leading-[30px] my-7 ml-5" >
+                   I am an IT student and aspiring software developer. My passion lies in building efficient full-stack 
+                   applications and exploring the world of DevOps to automate workflows. I enjoy
+                    tackling complex challenges and constantly learning new technologies like Java, React, and CI/CD tools to deliver high-quality software solutions.
                   </p>
+                  </nav>
              </nav>
              </div>
         </div>
