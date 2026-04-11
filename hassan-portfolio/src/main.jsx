@@ -9,7 +9,7 @@ import Skills from './skills/Skills.jsx'
 import Contact from './contact/Contact.jsx'
 createRoot(document.getElementById('root')).render(
         
-              <div className="bg-[#1f1f1f] w-screen h-screen z-0 relative">
+              <div className="bg-[#1f1f1f] w-screen  z-0 relative">
                 <Router>
                     <Routes>
                        <Route path='/' element={<App/>}/>

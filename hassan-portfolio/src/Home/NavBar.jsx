@@ -6,7 +6,7 @@ export default function Navbar(){
     return(
         <>
                 <img src={logo} alt="logo" className='w-40 absolute ml-20'/>
-                <nav className='absolute'>
+                <nav className='absolute z-10'>
                   <ul className='flex justify-end w-screen '>
                     {Navlist.map((item,index)=>{
                       return(<NavLink key={index} to={item.path} className={({isActive})=>isActive ? "text-[#10b981] hover:cursor-pointer mr-20 mt-5":"text-white mr-20 mt-5 hover:text-[#10b981] hover:cursor-pointer "} >{item.name}</NavLink>

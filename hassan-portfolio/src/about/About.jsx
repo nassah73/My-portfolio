@@ -5,7 +5,7 @@ export default function About(){
         <>
         <div>
         <Navbar/>
-        <div className="w-[1200px]  justify-self-center relative h-screen">
+        <div className="w-[1200px]  justify-self-center relative  bg-[#1f1f1f] ">
             <div className=" w-[1200px]   justify-self-center  flex  gap-10  relative top-[100px]">
             <nav className=" relative w-[50%] ">
             <div className="bg-[#10b981] w-[100%] h-100 rounded-xl relative  z-0 rotate-175"></div>
@@ -24,8 +24,8 @@ export default function About(){
              </nav>
                
              </div>
-              <section className="grid grid-cols-5 grid-rows-2 absolute bottom-0 h- bg-amber-700 w-[100%]">
-                   <div className="bg-amber-300 h-20"> helo</div>
+              <section className="grid grid-cols-5 grid-rows-2   mt-40 bg-amber-700 w-[100%]">
+                   <div className="bg-amber-300 h-40 w-40"> helo</div>
                     <div className="bg-amber-300 h-20"> helo</div>
                 </section>
         </div>
